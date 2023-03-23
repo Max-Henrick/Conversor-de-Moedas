@@ -11,29 +11,29 @@ const convertValue = () => {
     const dolarValueText = document.getElementById("value-text")
 
     if (select.value === "US$ Dólar Americano") {
-        dolarValueText.innerHTML = new Intl.NumberFormat("en-US", { 
-        style: "currency", 
-        currency: "USD"
-    }).format(inputReais / valueDolar);
+        dolarValueText.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD"
+        }).format(inputReais / valueDolar);
     }
     if (select.value === "€$ Euro") {
-        dolarValueText.innerHTML = new Intl.NumberFormat("de-DE", { 
-        style: "currency", 
-        currency: "EUR"
-    }).format(inputReais / valueEuro)
+        dolarValueText.innerHTML = new Intl.NumberFormat("de-DE", {
+            style: "currency",
+            currency: "EUR"
+        }).format(inputReais / valueEuro)
     }
     if (select.value === "₿$ BitCoin") {
-        dolarValueText.innerHTML = new Intl.NumberFormat("en-US", { 
-        style: "currency", 
-        currency: "BTC"
-    }).format(inputReais * valueBitcoin)
+        dolarValueText.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "BTC"
+        }).format(inputReais * valueBitcoin)
     }
 
-    realValueText.innerHTML = new Intl.NumberFormat("pt-BR", { 
-        style: "currency", 
+    realValueText.innerHTML = new Intl.NumberFormat("pt-BR", {
+        style: "currency",
         currency: "BRL"
     }).format(inputReais)
-    
+
 }
 
 changeSelect = () => {

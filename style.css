@@ -15,9 +15,10 @@ body {
     width: 375px;
     height: 740px;
     background: #F4F4F4;
-    margin: 30px auto; /* usado para centralizar divs no meio da tela */
-    
-    
+    margin: 30px auto;
+    /* usado para centralizar divs no meio da tela */
+
+
 }
 
 header {
@@ -56,7 +57,8 @@ select {
     width: 100%;
     height: 48px;
     cursor: pointer;
-    outline: none; /* USADO PARA RETIRAR O SELETOR AZUL QUE APARECE QUANDO CLICADO*/
+    outline: none;
+    /* USADO PARA RETIRAR O SELETOR AZUL QUE APARECE QUANDO CLICADO*/
     appearance: none;
     padding-left: 16px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
@@ -132,4 +134,3 @@ p {
     height: 50px;
     padding: 5px;
 }
-
