@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    width: auto;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container {
+    width: 375px;
+    height: 740px;
+    background: #F4F4F4;
+    margin: 30px auto; /* usado para centralizar divs no meio da tela */
+    
+    
+}
+
+header {
+    width: 375px;
+    height: 66px;
+    background-color: #1B83E2;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    text-align: center;
+    padding-top: 24px;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    outline: none; /* USADO PARA RETIRAR O SELETOR AZUL QUE APARECE QUANDO CLICADO*/
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+
+label {
+    margin-top: 23px;
+}
+
+input {
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    height: 48px;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+
+button {
+    background-color: #1B83E2;
+    border-radius: 25px;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 36px;
+    color: #F4F4F4;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #1B83E2;
+}
+
+.arrow {
+    height: 50px;
+    padding: 5px;
+}
+
