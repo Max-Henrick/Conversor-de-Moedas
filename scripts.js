@@ -8,7 +8,6 @@ const convertValue = async () => {
     const dolarValueText = document.getElementById("value-text")
 
     const data = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL").then(response => response.json())
-    console.log(data)
 
     const valueDolar = data.USDBRL.high
     const valueEuro = data.EURBRL.high
