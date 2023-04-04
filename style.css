@@ -6,7 +6,9 @@
 }
 
 body {
-    /* background-color: #E5E5E5; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: url("https://source.unsplash.com/1920x1080/?landscape")
     
@@ -16,16 +18,17 @@ body {
     width: 375px;
     height: 740px;
     background: #F4F4F4;
-    margin: 30px auto;
-    /* usado para centralizar divs no meio da tela */
-
-
+    border-radius: 15px;
 }
 
 header {
     width: 375px;
     height: 66px;
     background-color: #1B83E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
 }
 
 h1 {
@@ -34,8 +37,6 @@ h1 {
     font-size: 24px;
     line-height: 18px;
     color: #F4F4F4;
-    text-align: center;
-    padding-top: 24px;
 }
 
 main {
@@ -95,7 +96,7 @@ button {
     font-weight: 700;
     font-size: 16px;
     line-height: 18px;
-    margin-bottom: 36px;
+    margin-bottom: 20px;
     color: #F4F4F4;
     border: none;
 }
@@ -111,8 +112,18 @@ button:active {
 section {
     border: 1px solid #1B83E2;
     border-radius: 4px;
-    text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.converse-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
 }
 
 h2 {
@@ -133,5 +144,4 @@ p {
 
 .arrow {
     height: 50px;
-    padding: 5px;
 }
