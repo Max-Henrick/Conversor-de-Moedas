@@ -10,8 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("https://source.unsplash.com/1920x1080/?landscape") no-repeat
-    
+    background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+    background-size: cover;
 }
 
 .container {
